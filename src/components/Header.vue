@@ -1,6 +1,7 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 </script>
+
 <template>
   <header>
     <img src="../assets/logo.png" alt="Logo" />
@@ -20,4 +21,34 @@ import { Icon } from "@iconify/vue";
     </nav>
   </header>
 </template>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+  
+  header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: 2rem;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+
+  } 
+    
+  a{
+    text-decoration: none;
+    color: black;
+
+  }
+
+    
+
+
+
+
+
+
+
+</style>

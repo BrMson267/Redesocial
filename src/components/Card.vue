@@ -5,10 +5,7 @@ defineProps(["imagem"]);
 <template>
   <div class="card">
     <button>💖</button>
-    <img
-      src="imagem"
-      alt="Praia de São Conrado"
-    />
+    <img :src="imagem" alt="Praia de São Conrado"/>
   </div>
 </template>
 
@@ -17,7 +14,7 @@ defineProps(["imagem"]);
 .card{
     width: 30vw;
     height: 50vh;
-    border: solid;
+    border: none;
     
     img{
 

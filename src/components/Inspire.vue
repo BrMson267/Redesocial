@@ -32,7 +32,7 @@ carregarImagens();
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-
+    
 
 
   }

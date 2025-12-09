@@ -12,12 +12,13 @@
             <p>Rio de Janeiro</p>
         </div>
         <div class="Sobre">
+            <h3>Sobre</h3>
             <p>Politicas</p>
             <p>Politicas de privacidade</p>
             <p>Blog</p>
         </div>
         <div class="inscrever">
-        <p>Assine nossa newletter</p>
+            <h3>Assine nossa newletter</h3>
             
             
             <form>
@@ -40,7 +41,23 @@
 </template>
 
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        gap: 5rem;
+
+
+
+
+    }
+
+
+    
+</style>
 
     
 
